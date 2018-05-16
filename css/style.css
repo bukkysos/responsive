@@ -1,0 +1,103 @@
+
+@media only screen and (max-width: 400px) {
+    .col,
+    .row {
+        width: 100%;
+        margin: auto;
+    }
+    .list {
+        margin-left: 10px;
+        position: relative;
+        bottom: 60px;
+        right: 38px;
+    }
+    .list li {
+        color: white;
+        margin-left: 45px;
+        padding-left: 2px;
+        position: relative;
+        top: 110px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1200) {
+ /** No specific query for fixed width **/
+ 	.links li {
+		width: 100px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.container{
+		max-width: 95%;
+    }
+	.links li {
+		width: 200px;
+		padding: 25px;
+	}
+}
+
+@media screen and (max-width: 782px) {
+        #wpadminbar li#wp-admin-bar-log-in,
+        #wpadminbar li#wp-admin-bar-register {
+            display: block;
+        }
+
+        #wpadminbar li#wp-admin-bar-log-in a,
+        #wpadminbar li#wp-admin-bar-register a {
+            padding: 0 8px;
+        }
+}
+
+@media only screen and (max-width: 768px) {
+	.container{
+		max-width: 95%;
+		padding: 30px;
+	}
+		.links li {
+		width: 300px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.container{
+		max-width: 95%;
+		padding: 60px;
+	}
+	.links li {
+		width: 450px;
+	}
+}
+@media only screen and (max-width: 300px) {
+	.container{
+		max-width: 95%;
+		padding: 60px;
+	}
+	.links li {
+		width: 450px;
+	}
+	.col-2x {
+		width: 90%;
+	}
+}
+
+
+@media screen {
+	html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+} 
+
+* html body { 
+        margin-top: 32px !important; }
+
+@media screen and ( max-width: 782px ) {
+        margin-top: 32px !important; }
+		
+#input {
+    float: right;
+    padding: 7px;
+    margin-top: 8px;
+    width: 300px;
+}
